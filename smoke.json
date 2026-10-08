@@ -1,0 +1,23 @@
+[
+  {
+    "args": [
+      "robots.txt",
+      "cases.json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "robots.txt",
+      "bad-cases.json"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "robots.txt",
+      "invalid.json"
+    ],
+    "exit": 2
+  }
+]

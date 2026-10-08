@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robots-route-contract"
+version = "0.1.0"
+description = "Offline route-case gate with exact-agent/wildcard group selection, repeated exact-group merge, wildcard/end-anchor matches and winning rule line receipts."
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "Nripanka Das"}]
+dependencies = []
+
+[project.scripts]
+robots-route-contract = "robots_route_contract:main"
+
+[project.urls]
+Repository = "https://github.com/nripankadas07/robots-route-contract"
+Issues = "https://github.com/nripankadas07/robots-route-contract/issues"
+
+[tool.setuptools]
+py-modules = ["robots_route_contract"]

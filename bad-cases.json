@@ -1,0 +1,7 @@
+[
+  {
+    "agent": "DemoBot",
+    "path": "/private/notes",
+    "allowed": true
+  }
+]

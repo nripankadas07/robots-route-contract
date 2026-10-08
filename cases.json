@@ -1,0 +1,12 @@
+[
+  {
+    "agent": "DemoBot",
+    "path": "/private/notes",
+    "allowed": false
+  },
+  {
+    "agent": "DemoBot",
+    "path": "/private/public/page",
+    "allowed": true
+  }
+]
